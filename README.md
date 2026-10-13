@@ -1,6 +1,6 @@
 # joaostack-nvim
 
-My simple Neovim configuration built with Lua.
+Kickstart neovim
 
 ## Features
 
