@@ -11,25 +11,6 @@ My simple Neovim configuration built with Lua.
 - **Formatting**: [conform.nvim](https://github.com/stevearc/conform.nvim)
 - **Colorscheme**: [moonfly](https://github.com/bluz71/vim-moonfly-colors)
 
-## Structure
-
-```
-nvim/
-├── init.lua                 # Entry point
-├── lua/
-│   ├── config/
-│   │   ├── options.lua      # Neovim options
-│   │   ├── keymaps.lua      # Key mappings
-│   │   └── lazy.lua         # lazy.nvim setup
-│   └── plugins/
-│       ├── nvim-tree.lua    # File explorer config
-│       ├── lualine.lua      # Status line config
-│       ├── mason.lua        # LSP installer config
-│       ├── mason-lspconfig.lua # LSP config
-│       ├── conform.lua      # Formatter config
-│       └── moonfly.lua      # Colorscheme config
-```
-
 ## Installation
 
 ```bash
