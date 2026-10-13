@@ -27,7 +27,8 @@ nvim/
 │       ├── mason.lua        # LSP installer config
 │       ├── mason-lspconfig.lua # LSP config
 │       ├── conform.lua      # Formatter config
-│       └── moonfly.lua      # Colorscheme config
+│       ├── moonfly.lua      # Colorscheme config
+|       ├── telescope.lua    # File search
 ```
 
 ## Installation
