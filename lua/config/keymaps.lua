@@ -22,6 +22,10 @@ map("n", "<Esc>", "<cmd>nohlsearch<cr>", {
 	desc = "Limpar busca",
 })
 
+vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {
+	desc = "Correções disponíveis",
+})
+
 map("n", "<C-h>", "<C-w>h")
 map("n", "<C-j>", "<C-w>j")
 map("n", "<C-k>", "<C-w>k")
